@@ -16,6 +16,14 @@ Following is a figure showing the left-right view of a 3D scene and two depth ma
 <img src='/imgs/disparity.png' position="center" width=450>
 
 ## Binocular vs. Multi-view disparity
-Introduction and details about to Binocur and Multi-view disparity can be found in folder "/PPT_slides/disparity.pdf" <br>
+Introduction and details about to Binocur and Multi-view disparity can be found in folder "/PPT_slides/Intro_disparity.pptx" <br> <br>
 Binocular disparity is just 1-D estimation which may ignore some vertical information.  <br>
-Multi-view disparity is the extension of binocular method at 2-D estimation, which uses more than two images. <br>
+Multi-view disparity is a nature extension of binocular method at 2-D estimation, which uses more than two images and thus usually would get better performance. <br>
+
+## Multi-view Selection
+However, multi-view disparity estimating method often yields noisy, spurious disparity maps due to occlusions, scene discontinuity, imperfect light balance and other disturbance. <br>
+The following picture is the performance using different number of views to generate disparity map for a specific 3D scene. 
+As can be seen from the curve, when number of views increases, the performance first get better and reach a min point on the curve. When number of views keeps increasing, the performance however, drops a little afterwards. This tells us that we only need to select some of the views to reach best performance.
+<img src='/imgs/viewselect.png' position="center" width=500>
+
+**This is the problem we are going to solve.
