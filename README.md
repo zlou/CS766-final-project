@@ -16,7 +16,7 @@ Following is a figure showing the left-right view of a 3D scene and two depth ma
 <img src='/imgs/disparity.png' position="center" width=450>
 
 ## Binocular vs. Multi-view disparity
-Introduction and details about to Binocur and Multi-view disparity can be found in folder "/PPT_slides/Intro_disparity.pptx" <br> <br>
+Introduction and details about to Binocur and Multi-view disparity can be found in file "/PPT_slides/Intro_disparity.pdf" <br> <br>
 Binocular disparity is just 1-D estimation which may ignore some vertical information.  <br>
 Multi-view disparity is a nature extension of binocular method at 2-D estimation, which uses more than two images and thus usually would get better performance. <br>
 
@@ -26,4 +26,16 @@ The following picture is the performance using different number of views to gene
 As can be seen from the curve, when number of views increases, the performance first get better and reach a min point on the curve. When number of views keeps increasing, the performance however, drops a little afterwards. <br>
 So，we only need to select some of the views to reach best performance -- this is the problem to solve in this project.
 <img src='/imgs/viewselect.png' position="center" width=400>
+
+## Existing Algorithms
+Binocular-disparity estimation algorithms can be found in file "/PPT_slides/existing_binocular.pdf" <br>
+Multiview-disparity estimation algorithms can be found in file "/PPT_slides/existing_multiview.pdf" <br><br>
+
+## Our proposed algorithm
+
+
+
+
+
+
 
