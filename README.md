@@ -23,7 +23,6 @@ Multi-view disparity is a nature extension of binocular method at 2-D estimation
 ## Multi-view Selection
 However, multi-view disparity estimating method often yields noisy, spurious disparity maps due to occlusions, scene discontinuity, imperfect light balance and other disturbance. <br>
 The following picture is the performance using different number of views to generate disparity map for a specific 3D scene. 
-As can be seen from the curve, when number of views increases, the performance first get better and reach a min point on the curve. When number of views keeps increasing, the performance however, drops a little afterwards. This tells us that we only need to select some of the views to reach best performance.
+As can be seen from the curve, when number of views increases, the performance first get better and reach a min point on the curve. When number of views keeps increasing, the performance however, drops a little afterwards. This tells us that we only need to select some of the views to reach best performance. And this is the problem we are going to solve in this project.
 <img src='/imgs/viewselect.png' position="center" width=500>
 
-**This is the problem we are going to solve.
