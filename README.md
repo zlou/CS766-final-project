@@ -1,3 +1,5 @@
 # CS766-final-project
+## Project Title
 Multi-view stereo estimation with pixel-wise view selection network <br>  
-Author: Zhengyang Lou, Xucheng Wan, Xiao Wang <br>  
+## Author
+Zhengyang Lou, Xucheng Wan, Xiao Wang <br>  
