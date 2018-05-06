@@ -10,6 +10,7 @@ This project is aiming at:
  - Implement neural networks to determine the views to use for every pixel.
 
 ## Why disparity estimation is important
-Stereo estimation is a fundamental computer vision: 
-Given two images for the same scene from different views, compute the disparity for each pixel and then generate depth map, from which we can form a 3D scene. Following is a figure showing the left-right view of a 3D scene and two depth map they generated. <br>
-<img src='/imgs/disparity.png' align="center" width=400>
+Stereo estimation is a fundamental computer vision: <br>
+Given two images for the same scene from different views, compute the disparity for each pixel and then generate depth map, from which we can form a 3D scene. <br>
+Following is a figure showing the left-right view of a 3D scene and two depth map they generated. <br>
+<img src='/imgs/disparity.png' position="center" width=400>
