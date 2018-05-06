@@ -13,4 +13,9 @@ This project is aiming at:
 Stereo estimation is a fundamental computer vision: <br>
 Given two images for the same scene from different views, compute the disparity for each pixel and then generate depth map, from which we can form a 3D scene. <br>
 Following is a figure showing the left-right view of a 3D scene and two depth map they generated. <br>
-<img src='/imgs/disparity.png' position="center" width=400>
+<img src='/imgs/disparity.png' position="center" width=450>
+
+## Binocular vs. Multi-view disparity
+Introduction and details about to Binocur and Multi-view disparity can be found in folder "/PPT_slides/disparity.pdf" <br>
+Binocular disparity is just 1-D estimation which may ignore some vertical information.  <br>
+Multi-view disparity is the extension of binocular method at 2-D estimation, which uses more than two images. <br>
