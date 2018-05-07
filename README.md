@@ -44,7 +44,7 @@ Here the 'h' is defined manually to achieve good performance, which may not be r
 
 The basic steps of our CNN-based algorithm is shown in the following picture:
 
-<img src='/imgs/cnnaim.png' position="center" width=600><br>
+<img src='/cnnaim.png' position="center" width=600><br>
 
 
 
