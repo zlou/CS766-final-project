@@ -32,9 +32,17 @@ Binocular-disparity estimation algorithms can be found in file "/PPT_slides/exis
 Multiview-disparity estimation algorithms can be found in file "/PPT_slides/existing_multiview.pdf" <br><br>
 
 ## Our proposed algorithm
-The proposed algorithm is based on our previous research: "Shiwei Zhou, Zhengyang Lou et, al.(2018) Improving disparity map estimation for multi-view noisy images. ICASSP 2018 conference." <br>
-The paper can be obtained here: [[multi-view]](https://sigport.org/documents/improving-disparity-map-estimation-multi-view-noisy-images) <br>
-In this research, A disparity estimation method for multi-view images with noise is investigated by constructing multi-focus image and view selection. The basic steps for this multi-view disparity estimation can be seen
+The proposed algorithm is based on our previous research: "Shiwei Zhou, Zhengyang Lou et, al.(2018) Improving disparity map estimation for multi-view noisy images. ICASSP 2018 conference."[[multi-view]](https://sigport.org/documents/improving-disparity-map-estimation-multi-view-noisy-images) <br><br>
+
+In this research, A disparity estimation method for multi-view images with noise is investigated by constructing multi-focus image and view selection. In order to introduce our method, we use one page of our PPT to restate the problem:
+<img src='/imgs/matchingcost.png' position="center" width=500><br>
+Here the 'h' is defined manually to achieve good performance, which may not be reasonable when the geometric structure of the 3D scene changes. So our intuition of the project is:
+ - We designed and trained a neural network to adaptively learn how to select the propriate views for disparity estimation.
+ - The input of the neural network is the reference image and multi-view images; 
+ - the output is an image where the value of each pixel is the number of views that can achieve the best disparity estimation.
+ - Then we use the number of views to continue doing multi-view disparity estimation using method from previous research.
+
+
 
 
 
