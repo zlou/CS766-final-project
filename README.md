@@ -35,7 +35,9 @@ Multiview-disparity estimation algorithms can be found in file "/PPT_slides/exis
 ### Previous research
 The proposed algorithm is based on our previous research: "Shiwei Zhou, Zhengyang Lou et, al.(2018) Improving disparity map estimation for multi-view noisy images. ICASSP 2018 conference."[[multi-view]](https://sigport.org/documents/improving-disparity-map-estimation-multi-view-noisy-images) <br><br>
 
-In this research, A disparity estimation method for multi-view images with noise is investigated by constructing multi-focus image and view selection. In order to introduce our method, we use one page of our PPT to restate the problem:
+In this research, A disparity estimation method for multi-view images with noise is investigated by constructing multi-focus image(MFI) and view selection. <br>
+Some details of the MFI and optimizing process are given in file "/PPT_slides/zhou2018.pdf"<br>
+In order to introduce our method, we use one page of our PPT to restate the problem:
 <img src='/imgs/matchingcost.png' position="center" width=500><br>
 Here the 'h' is defined manually to achieve good performance, which may not be reasonable when the geometric structure of the 3D scene changes. Instead we want to design a CNN to learn how to do multi-view selection -- to learn value for 'h'.
 
