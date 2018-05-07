@@ -32,7 +32,9 @@ Binocular-disparity estimation algorithms can be found in file "/PPT_slides/exis
 Multiview-disparity estimation algorithms can be found in file "/PPT_slides/existing_multiview.pdf" <br><br>
 
 ## Our proposed algorithm
-
+The proposed algorithm is based on our previous research: "Shiwei Zhou, Zhengyang Lou et, al.(2018) Improving disparity map estimation for multi-view noisy images. ICASSP 2018 conference." <br>
+The paper can be obtained here: [[multi-view]](https://sigport.org/documents/improving-disparity-map-estimation-multi-view-noisy-images) <br>
+In this research, A disparity estimation method for multi-view images with noise is investigated by constructing multi-focus image and view selection. The basic steps for this multi-view disparity estimation can be seen
 
 
 
