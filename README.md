@@ -43,9 +43,13 @@ Here the 'h' is defined manually to achieve good performance, which may not be r
  - Then we use the number of views to continue doing multi-view disparity estimation using method from previous research.
 
 The basic steps of our CNN-based algorithm is shown in the following picture:
-
-<img src='/cnnaim.png' position="center" width=600><br>
-
+<img src='/cnnaim.png' position="center" width=800><br>
+Detailed steps of the learning process:
+ - select a point at reference view (RED point) and form a 15\times 15 window around it.
+ - wondow the same size at other images form a 25 images stack as an input volume.
+ - using from 5 views to 25 views to generate 21 disparity maps in total: d_5 to d_25.
+ - compare the ground truth with d_5 to d_25 and find d_k that matches the best.
+ - output 'k' as the number of views to select for multi-view disparity estimation.
 
 
 
