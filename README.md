@@ -56,6 +56,12 @@ Detailed steps of the learning process:
  - output 'k' as the number of views to select for multi-view disparity estimation.
 
 
-
-
-
+## Experiment and evaluation
+### Training the model
+<br>
+### Experiment results
+<br>
+### Evaluation 
+<br>
+### Future work
+<br>
