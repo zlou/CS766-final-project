@@ -42,7 +42,9 @@ Here the 'h' is defined manually to achieve good performance, which may not be r
  - the output is an image where the value of each pixel is the number of views that can achieve the best disparity estimation.
  - Then we use the number of views to continue doing multi-view disparity estimation using method from previous research.
 
+The basic steps of our CNN-based algorithm is shown in the following picture:
 
+<img src='/imgs/cnnaim.png' position="center" width=600><br>
 
 
 
