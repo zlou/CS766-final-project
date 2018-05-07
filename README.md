@@ -46,7 +46,7 @@ So our intuition of the project is:
  - the output is an image where the value of each pixel is the number of views that can achieve the best disparity estimation.
  - Then we use the number of views to continue doing multi-view disparity estimation using method from previous research.
 
-The basic steps of our CNN-based algorithm is shown in the following picture:<br>
+The basic steps of our CNN-based algorithm is shown in the following picture:<br><br>
 <img src='/cnnaim.png' position="center" width=700><br><br>
 Detailed steps of the learning process:
  - select a point at reference view (RED point) and form a 15\times 15 window around it.
