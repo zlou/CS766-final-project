@@ -73,11 +73,15 @@ Here are some results of our proposed algorithm:
 Size map are shown as following, as can be seen from the size map result, the overall outlines and structure of objects can be seen clearly. Some surface pixels are smoothed which do not affect too much on the overall performance.<br>
 <img src='/imgs/result0.png' position="center" width=400><br>
 <br>
-Generated disparity map alone with results using other algorithms are shown as following. As can be seen from the visual inspection, our approach achieved relatively better performance than other two methods. Details like the table lamp arm and camera tripod are clearer to see.  <br>
+Generated disparity map alone with results using other algorithms are shown as following. As can be seen from the visual inspection, our approach achieved relatively better performance than other two methods. Details like the table lamp arm are clearer to see.  <br>
 <img src='/imgs/result2.png' position="center" width=400><br>
+
+<br>
+Here shows the comparision of the ground truth, image of real object and our result.
 <img src='/imgs/result_true.png' position="center" width=250 height = 200>
 <img src='/imgs/real_object_image.png' position="center" width=250 height = 200>
 <img src='/imgs/result01.png' position="center" width=250 height = 200><br>
+Obviously, our image shows more details than the ground truth, especially for those far away from the camera such as bookshelves. However, our algorithm did not handle the details near the camera very well such as the base of the plaster.
 <br>
 
 We also compared the per-pixel error rate with the ground truth disparity image, results are shown as following. The error rate decreases by about 8 percent compared to our previous method.<br>
