@@ -75,6 +75,7 @@ Size map are shown as following, as can be seen from the size map result, the ov
 <br>
 Generated disparity map alone with results using other algorithms are shown as following. As can be seen from the visual inspection, our approach achieved relatively better performance than other two methods. Details like the table lamp arm and camera tripod are clearer to see.  <br>
 <img src='/imgs/result2.png' position="center" width=400><br>
+<img src='/imgs/real_object_image.png' position="center" width=400><br>
 <br>
 
 We also compared the per-pixel error rate with the ground truth disparity image, results are shown as following. The error rate decreases by about 8 percent compared to our previous method.<br>
