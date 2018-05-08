@@ -77,7 +77,7 @@ Generated disparity map alone with results using other algorithms are shown as f
 <img src='/imgs/result2.png' position="center" width=400><br>
 
 <br>
-Here shows the comparision of the ground truth, image of real object and our result.
+Here shows the comparison of the ground truth, image of real object and our result.
 <p float="left">
 <img src='/imgs/result_true.png' width=270 height = 200>
 <img src='/imgs/real_object_image.png'width=270 height = 200>
