@@ -64,12 +64,21 @@ Since we have the clear definition of **x** and **y**, we can train our image da
 ### Training the model
 Due to limitation of training images, we trained our network on the same group of images. We use half of the image as training data  and use the other half as test data. The image is Tsukuba image from the middlebury dataset. [[middlebury2001]](http://vision.middlebury.edu/stereo/data/scenes2001/).<br> 
 <br>
-### Experiment results
+### Experiment Evaluation
 Here are some results of our proposed algorithm:
 Size map are shown as following, as can be seen from the size map result, the overall outlines and structure of objects can be seen clearly. Some surface pixels are smoothed which do not affect too much on the overall performance.<br>
 <img src='/imgs/result0.png' position="center" width=400><br>
 <br>
-### Evaluation 
+Generated disparity map alone with results using other algorithms are shown as following. As can be seen from the visual inspection, our approach achieved relatively better performance than other two methods. Details like the table lamp arm and camera tripod are clearer to see.  <br>
+<img src='/imgs/result1.png' position="center" width=500><br>
 <br>
+
+We also compared the per-pixel error rate with the ground truth disparity image, results are shown as following. The error rate decreases by about 8 percent compared to our previous method.<br>
+<img src='/imgs/table.png' position="center" width=300><br>
+<br>
+
+
 ### Future work
+ - Instead of using current method, we will use state-of-the-art method to compute the matching cost.
+ - Our method was currently limited to use discrete integer disparity, so we will try to conduct the method with continuous disparities.
 <br>
