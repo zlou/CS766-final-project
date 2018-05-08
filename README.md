@@ -79,9 +79,9 @@ Generated disparity map alone with results using other algorithms are shown as f
 <br>
 Here shows the comparision of the ground truth, image of real object and our result.
 <p float="left">
-<img src='/imgs/result_true.png' width=260 height = 200>
-<img src='/imgs/real_object_image.png'width=260 height = 200>
-<img src='/imgs/result01.png' width=260 height = 200>
+<img src='/imgs/result_true.png' width=270 height = 200>
+<img src='/imgs/real_object_image.png'width=270 height = 200>
+<img src='/imgs/result01.png' width=270 height = 200>
 </p>
 
 Obviously, our image shows more details than the ground truth, especially for those far away from the camera such as bookshelves. However, our algorithm did not handle the details near the camera very well such as the base of the plaster.
