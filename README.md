@@ -62,7 +62,7 @@ Since we have the clear definition of **x** and **y**, we can train our image da
 
 ## Experiment and evaluation
 ### Training the model
-Due to limitation of geometric structure of the 3D scene, we trained our data on half of the image and use the other half as test data. The image is from the middlebury dataset. [[middlebury2001]](http://vision.middlebury.edu/stereo/data/scenes2001/).<br> 
+Due to limitation of training images, we trained our network on the same group of images. We use half od the image as training data  and use the other half as test data. The image is from the middlebury dataset. [[middlebury2001]](http://vision.middlebury.edu/stereo/data/scenes2001/).<br> 
 <br>
 ### Experiment results
 Here are some results of our proposed algorithm:
