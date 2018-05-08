@@ -54,12 +54,13 @@ So our intuition of the project is:
 
 The basic steps of the algorithm for each point to determine the number of views that achieve the best performance are shown in the following picture:<br><br>
 <img src='/cnnaim.png' position="center" width=700><br><br>
-Detailed steps of the learning process:
- - select a point at reference view (RED point) and form a 15\times 15 window around it.
- - wondow the same size at other images form a 25 images stack as an input volume **x**.
- - using from 5 views to 25 views to generate 21 disparity maps in total: **d_5** to **d_25**.
- - compare the ground truth with **d_5** to **d_25** and find **d_k** that matches the best.
- - output '**y** = **k**' as the number of views to select for multi-view disparity estimation.
+Detailed steps of the predicting process:
+ - Select a point at reference view (RED point) and form a 15 **\times** 15 window around it.
+ - Window the same size at other images to form a 25 images stack as an input volume **x**.
+ - Order the views with a specific standard so the network only needs to choose the number of views.
+ - Using from 5 views to 25 views to generate 21 disparity maps in total: **d_5** to **d_25**.
+ - Compare the ground truth from 5 to 25 and find **d_k** that matches the best.
+ - Output '**y** = **k**' as the number of views to select for multi-view disparity estimation.
 
 Since we have the clear definition of **x** and **y**, we can train our image data on a CNN structure based on LeNet(shown in following picture).<br>
 <img src='/imgs/lenet.png' position="center" width=400><br>
