@@ -66,7 +66,7 @@ Due to limitation of geometric structure of the 3D scene, we trained our data on
 <br>
 ### Experiment results
 Here are some results of our proposed algorithm:
-Size map are shown as following, as can be seen from the size map result, the overall outlines and structure of objects can be seen clearly. Some surface pixels are smoothed which do not affect too much on the overall performance.
+Size map are shown as following, as can be seen from the size map result, the overall outlines and structure of objects can be seen clearly. Some surface pixels are smoothed which do not affect too much on the overall performance.<br>
 <img src='/imgs/result0.png' position="center" width=400><br>
 <br>
 ### Evaluation 
