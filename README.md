@@ -65,6 +65,9 @@ Since we have the clear definition of **x** and **y**, we can train our image da
 Due to limitation of geometric structure of the 3D scene, we trained our data on half of the image and use the other half as test data. The image is from the middlebury dataset. [[middlebury2001]](http://vision.middlebury.edu/stereo/data/scenes2001/).<br> 
 <br>
 ### Experiment results
+Here are some results of our proposed algorithm:
+Size map are shown as following, as can be seen from the size map result, the overall outlines and structure of objects can be seen clearly. Some surface pixels are smoothed which do not affect too much on the overall performance.
+<img src='/imgs/result0.png' position="center" width=400><br>
 <br>
 ### Evaluation 
 <br>
